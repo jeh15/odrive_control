@@ -6,6 +6,13 @@ module(
     name = "odrive_control",
 )
 
+# Toolchain:
+# bazel_dep(name = "platforms", version = "0.0.10")
+# register_toolchains(
+#     "//toolchain:cc_toolchain_for_linux_x86_64"
+# )
+
+
 # Autocomplete for Bazel:
 # Hedron's Compile Commands Extractor for Bazel
 # https://github.com/hedronvision/bazel-compile-commands-extractor
